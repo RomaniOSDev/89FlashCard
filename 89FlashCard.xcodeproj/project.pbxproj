@@ -3,33 +3,61 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 60;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		744DA04C2F52FB6A002D4719 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 744DA0372F52FB6A002D4719 /* Assets.xcassets */; };
+		744DA04E2F52FB6A002D4719 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744DA03F2F52FB6A002D4719 /* LaunchScreen.storyboard */; };
+		744DA04F2F52FB6A002D4719 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 744DA0412F52FB6A002D4719 /* Main.storyboard */; };
+		744DA0502F52FB6A002D4719 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0332F52FB6A002D4719 /* Achievement.swift */; };
+		744DA0512F52FB6A002D4719 /* AchievementsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0342F52FB6A002D4719 /* AchievementsView.swift */; };
+		744DA0522F52FB6A002D4719 /* AddEditCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0352F52FB6A002D4719 /* AddEditCardViewModel.swift */; };
+		744DA0532F52FB6A002D4719 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0362F52FB6A002D4719 /* AppDelegate.swift */; };
+		744DA0542F52FB6A002D4719 /* CardDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0382F52FB6A002D4719 /* CardDetailViewModel.swift */; };
+		744DA0552F52FB6A002D4719 /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0392F52FB6A002D4719 /* CardViewModel.swift */; };
+		744DA0562F52FB6A002D4719 /* Color+FlashAccent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA03A2F52FB6A002D4719 /* Color+FlashAccent.swift */; };
+		744DA0572F52FB6A002D4719 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA03B2F52FB6A002D4719 /* ContentView.swift */; };
+		744DA0582F52FB6A002D4719 /* FlashCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA03C2F52FB6A002D4719 /* FlashCard.swift */; };
+		744DA0592F52FB6A002D4719 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0422F52FB6A002D4719 /* OnboardingView.swift */; };
+		744DA05A2F52FB6A002D4719 /* QuizSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0432F52FB6A002D4719 /* QuizSessionView.swift */; };
+		744DA05B2F52FB6A002D4719 /* QuizSessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0442F52FB6A002D4719 /* QuizSessionViewModel.swift */; };
+		744DA05C2F52FB6A002D4719 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0452F52FB6A002D4719 /* SceneDelegate.swift */; };
+		744DA05D2F52FB6A002D4719 /* SessionSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0462F52FB6A002D4719 /* SessionSettingsView.swift */; };
+		744DA05E2F52FB6A002D4719 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0472F52FB6A002D4719 /* StatsView.swift */; };
+		744DA05F2F52FB6A002D4719 /* StudySessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0482F52FB6A002D4719 /* StudySessionView.swift */; };
+		744DA0602F52FB6A002D4719 /* StudySessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0492F52FB6A002D4719 /* StudySessionViewModel.swift */; };
+		744DA0612F52FB6A002D4719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA04A2F52FB6A002D4719 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
+		130CE04C92C3785369A0EBD2 /* Pods-89FlashCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-89FlashCard.release.xcconfig"; path = "Target Support Files/Pods-89FlashCard/Pods-89FlashCard.release.xcconfig"; sourceTree = "<group>"; };
 		743462632F3B6423006DFFE8 /* 89FlashCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 89FlashCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		744DA0332F52FB6A002D4719 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		744DA0342F52FB6A002D4719 /* AchievementsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementsView.swift; sourceTree = "<group>"; };
+		744DA0352F52FB6A002D4719 /* AddEditCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddEditCardViewModel.swift; sourceTree = "<group>"; };
+		744DA0362F52FB6A002D4719 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		744DA0372F52FB6A002D4719 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		744DA0382F52FB6A002D4719 /* CardDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardDetailViewModel.swift; sourceTree = "<group>"; };
+		744DA0392F52FB6A002D4719 /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
+		744DA03A2F52FB6A002D4719 /* Color+FlashAccent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+FlashAccent.swift"; sourceTree = "<group>"; };
+		744DA03B2F52FB6A002D4719 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		744DA03C2F52FB6A002D4719 /* FlashCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlashCard.swift; sourceTree = "<group>"; };
+		744DA03D2F52FB6A002D4719 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		744DA03E2F52FB6A002D4719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		744DA0402F52FB6A002D4719 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		744DA0422F52FB6A002D4719 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		744DA0432F52FB6A002D4719 /* QuizSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionView.swift; sourceTree = "<group>"; };
+		744DA0442F52FB6A002D4719 /* QuizSessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizSessionViewModel.swift; sourceTree = "<group>"; };
+		744DA0452F52FB6A002D4719 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		744DA0462F52FB6A002D4719 /* SessionSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSettingsView.swift; sourceTree = "<group>"; };
+		744DA0472F52FB6A002D4719 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		744DA0482F52FB6A002D4719 /* StudySessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySessionView.swift; sourceTree = "<group>"; };
+		744DA0492F52FB6A002D4719 /* StudySessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySessionViewModel.swift; sourceTree = "<group>"; };
+		744DA04A2F52FB6A002D4719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AE40F18593ACE947933F9D17 /* Pods-89FlashCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-89FlashCard.debug.xcconfig"; path = "Target Support Files/Pods-89FlashCard/Pods-89FlashCard.debug.xcconfig"; sourceTree = "<group>"; };
+		C041C34C291C86F02D0B21CE /* Pods_89FlashCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_89FlashCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		743462752F3B6424006DFFE8 /* Exceptions for "89FlashCard" folder in "89FlashCard" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 743462622F3B6423006DFFE8 /* 89FlashCard */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		743462652F3B6423006DFFE8 /* 89FlashCard */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				743462752F3B6424006DFFE8 /* Exceptions for "89FlashCard" folder in "89FlashCard" target */,
-			);
-			path = 89FlashCard;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		743462602F3B6423006DFFE8 /* Frameworks */ = {
@@ -45,8 +73,10 @@
 		7434625A2F3B6423006DFFE8 = {
 			isa = PBXGroup;
 			children = (
-				743462652F3B6423006DFFE8 /* 89FlashCard */,
+				744DA04B2F52FB6A002D4719 /* 89FlashCard */,
 				743462642F3B6423006DFFE8 /* Products */,
+				B5B9D367B6017EC85DACD85E /* Pods */,
+				D1ADB6AC68875E4927C1CB9C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +88,52 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		744DA04B2F52FB6A002D4719 /* 89FlashCard */ = {
+			isa = PBXGroup;
+			children = (
+				744DA0332F52FB6A002D4719 /* Achievement.swift */,
+				744DA0342F52FB6A002D4719 /* AchievementsView.swift */,
+				744DA0352F52FB6A002D4719 /* AddEditCardViewModel.swift */,
+				744DA0362F52FB6A002D4719 /* AppDelegate.swift */,
+				744DA0372F52FB6A002D4719 /* Assets.xcassets */,
+				744DA0382F52FB6A002D4719 /* CardDetailViewModel.swift */,
+				744DA0392F52FB6A002D4719 /* CardViewModel.swift */,
+				744DA03A2F52FB6A002D4719 /* Color+FlashAccent.swift */,
+				744DA03B2F52FB6A002D4719 /* ContentView.swift */,
+				744DA03C2F52FB6A002D4719 /* FlashCard.swift */,
+				744DA03D2F52FB6A002D4719 /* Info.plist */,
+				744DA03F2F52FB6A002D4719 /* LaunchScreen.storyboard */,
+				744DA0412F52FB6A002D4719 /* Main.storyboard */,
+				744DA0422F52FB6A002D4719 /* OnboardingView.swift */,
+				744DA0432F52FB6A002D4719 /* QuizSessionView.swift */,
+				744DA0442F52FB6A002D4719 /* QuizSessionViewModel.swift */,
+				744DA0452F52FB6A002D4719 /* SceneDelegate.swift */,
+				744DA0462F52FB6A002D4719 /* SessionSettingsView.swift */,
+				744DA0472F52FB6A002D4719 /* StatsView.swift */,
+				744DA0482F52FB6A002D4719 /* StudySessionView.swift */,
+				744DA0492F52FB6A002D4719 /* StudySessionViewModel.swift */,
+				744DA04A2F52FB6A002D4719 /* ViewController.swift */,
+			);
+			path = 89FlashCard;
+			sourceTree = "<group>";
+		};
+		B5B9D367B6017EC85DACD85E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE40F18593ACE947933F9D17 /* Pods-89FlashCard.debug.xcconfig */,
+				130CE04C92C3785369A0EBD2 /* Pods-89FlashCard.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D1ADB6AC68875E4927C1CB9C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C041C34C291C86F02D0B21CE /* Pods_89FlashCard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -65,6 +141,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 743462762F3B6424006DFFE8 /* Build configuration list for PBXNativeTarget "89FlashCard" */;
 			buildPhases = (
+				42019E1A6AD81A3AAD468B7B /* [CP] Check Pods Manifest.lock */,
 				7434625F2F3B6423006DFFE8 /* Sources */,
 				743462602F3B6423006DFFE8 /* Frameworks */,
 				743462612F3B6423006DFFE8 /* Resources */,
@@ -73,12 +150,7 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				743462652F3B6423006DFFE8 /* 89FlashCard */,
-			);
 			name = 89FlashCard;
-			packageProductDependencies = (
-			);
 			productName = 89FlashCard;
 			productReference = 743462632F3B6423006DFFE8 /* 89FlashCard.app */;
 			productType = "com.apple.product-type.application";
@@ -99,6 +171,7 @@
 				};
 			};
 			buildConfigurationList = 7434625E2F3B6423006DFFE8 /* Build configuration list for PBXProject "89FlashCard" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -106,8 +179,6 @@
 				Base,
 			);
 			mainGroup = 7434625A2F3B6423006DFFE8;
-			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 743462642F3B6423006DFFE8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -122,24 +193,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744DA04C2F52FB6A002D4719 /* Assets.xcassets in Resources */,
+				744DA04E2F52FB6A002D4719 /* LaunchScreen.storyboard in Resources */,
+				744DA04F2F52FB6A002D4719 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		42019E1A6AD81A3AAD468B7B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-89FlashCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7434625F2F3B6423006DFFE8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				744DA0502F52FB6A002D4719 /* Achievement.swift in Sources */,
+				744DA0512F52FB6A002D4719 /* AchievementsView.swift in Sources */,
+				744DA0522F52FB6A002D4719 /* AddEditCardViewModel.swift in Sources */,
+				744DA0532F52FB6A002D4719 /* AppDelegate.swift in Sources */,
+				744DA0542F52FB6A002D4719 /* CardDetailViewModel.swift in Sources */,
+				744DA0552F52FB6A002D4719 /* CardViewModel.swift in Sources */,
+				744DA0562F52FB6A002D4719 /* Color+FlashAccent.swift in Sources */,
+				744DA0572F52FB6A002D4719 /* ContentView.swift in Sources */,
+				744DA0582F52FB6A002D4719 /* FlashCard.swift in Sources */,
+				744DA0592F52FB6A002D4719 /* OnboardingView.swift in Sources */,
+				744DA05A2F52FB6A002D4719 /* QuizSessionView.swift in Sources */,
+				744DA05B2F52FB6A002D4719 /* QuizSessionViewModel.swift in Sources */,
+				744DA05C2F52FB6A002D4719 /* SceneDelegate.swift in Sources */,
+				744DA05D2F52FB6A002D4719 /* SessionSettingsView.swift in Sources */,
+				744DA05E2F52FB6A002D4719 /* StatsView.swift in Sources */,
+				744DA05F2F52FB6A002D4719 /* StudySessionView.swift in Sources */,
+				744DA0602F52FB6A002D4719 /* StudySessionViewModel.swift in Sources */,
+				744DA0612F52FB6A002D4719 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXVariantGroup section */
+		744DA03F2F52FB6A002D4719 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744DA03E2F52FB6A002D4719 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		744DA0412F52FB6A002D4719 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				744DA0402F52FB6A002D4719 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		743462772F3B6424006DFFE8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE40F18593ACE947933F9D17 /* Pods-89FlashCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -147,30 +284,37 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 89FlashCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "B&N-FlashCard";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-9FlashCard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.don.bnfl9shc2rd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		743462782F3B6424006DFFE8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130CE04C92C3785369A0EBD2 /* Pods-89FlashCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -178,25 +322,31 @@
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = 89FlashCard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "B&N-FlashCard";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mycompany.-9FlashCard";
+				PRODUCT_BUNDLE_IDENTIFIER = com.don.bnfl9shc2rd;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

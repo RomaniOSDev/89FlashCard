@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  89FlashCard
 //
-//  Created by Роман Главацкий on 10.02.2026.
+//  Created by Roman Guravei on 10.02.2026.
 //
 
 import UIKit

@@ -1,0 +1,6 @@
+framework module Pods_89FlashCard {
+  umbrella header "Pods-89FlashCard-umbrella.h"
+
+  export *
+  module * { export * }
+}
