@@ -28,6 +28,9 @@
 		744DA05F2F52FB6A002D4719 /* StudySessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0482F52FB6A002D4719 /* StudySessionView.swift */; };
 		744DA0602F52FB6A002D4719 /* StudySessionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA0492F52FB6A002D4719 /* StudySessionViewModel.swift */; };
 		744DA0612F52FB6A002D4719 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 744DA04A2F52FB6A002D4719 /* ViewController.swift */; };
+		748174102F581497008BA5CC /* CheckNewVersionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7481740E2F581497008BA5CC /* CheckNewVersionView.swift */; };
+		748174112F581497008BA5CC /* CheckLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7481740C2F581497008BA5CC /* CheckLink.swift */; };
+		748174122F581497008BA5CC /* NewVersionOndord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7481740D2F581497008BA5CC /* NewVersionOndord.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -55,6 +58,9 @@
 		744DA0482F52FB6A002D4719 /* StudySessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySessionView.swift; sourceTree = "<group>"; };
 		744DA0492F52FB6A002D4719 /* StudySessionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySessionViewModel.swift; sourceTree = "<group>"; };
 		744DA04A2F52FB6A002D4719 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7481740C2F581497008BA5CC /* CheckLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckLink.swift; sourceTree = "<group>"; };
+		7481740D2F581497008BA5CC /* NewVersionOndord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVersionOndord.swift; sourceTree = "<group>"; };
+		7481740E2F581497008BA5CC /* CheckNewVersionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckNewVersionView.swift; sourceTree = "<group>"; };
 		AE40F18593ACE947933F9D17 /* Pods-89FlashCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-89FlashCard.debug.xcconfig"; path = "Target Support Files/Pods-89FlashCard/Pods-89FlashCard.debug.xcconfig"; sourceTree = "<group>"; };
 		C041C34C291C86F02D0B21CE /* Pods_89FlashCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_89FlashCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -113,8 +119,19 @@
 				744DA0482F52FB6A002D4719 /* StudySessionView.swift */,
 				744DA0492F52FB6A002D4719 /* StudySessionViewModel.swift */,
 				744DA04A2F52FB6A002D4719 /* ViewController.swift */,
+				7481740F2F581497008BA5CC /* OnboardCheak */,
 			);
 			path = 89FlashCard;
+			sourceTree = "<group>";
+		};
+		7481740F2F581497008BA5CC /* OnboardCheak */ = {
+			isa = PBXGroup;
+			children = (
+				7481740C2F581497008BA5CC /* CheckLink.swift */,
+				7481740D2F581497008BA5CC /* NewVersionOndord.swift */,
+				7481740E2F581497008BA5CC /* CheckNewVersionView.swift */,
+			);
+			path = OnboardCheak;
 			sourceTree = "<group>";
 		};
 		B5B9D367B6017EC85DACD85E /* Pods */ = {
@@ -235,6 +252,9 @@
 				744DA0512F52FB6A002D4719 /* AchievementsView.swift in Sources */,
 				744DA0522F52FB6A002D4719 /* AddEditCardViewModel.swift in Sources */,
 				744DA0532F52FB6A002D4719 /* AppDelegate.swift in Sources */,
+				748174102F581497008BA5CC /* CheckNewVersionView.swift in Sources */,
+				748174112F581497008BA5CC /* CheckLink.swift in Sources */,
+				748174122F581497008BA5CC /* NewVersionOndord.swift in Sources */,
 				744DA0542F52FB6A002D4719 /* CardDetailViewModel.swift in Sources */,
 				744DA0552F52FB6A002D4719 /* CardViewModel.swift in Sources */,
 				744DA0562F52FB6A002D4719 /* Color+FlashAccent.swift in Sources */,

